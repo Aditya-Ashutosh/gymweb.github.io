@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarGym.com</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&display=swap" rel="stylesheet">
+
+<style>
+
+    body{
+        color: white;
+        background: url('img/man-4648086_1920.jpg');
+        margin: 0px;
+        padding:0px;
+        height:1000px;
+        box-sizing: border-box;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+    
+    #b1{
+        /* border: 3px solid red; */
+        display: inline-block;
+        left:34px;
+        position: absolute;
+        top:20px;
+        
+    }
+    #b2{
+        /* border: 3px solid yellow; */
+        display:block;
+        width:40%;
+        margin:12px auto;
+        top:20;
+    }
+    #b3{
+        /* border: 3px solid green; */
+        display: inline-block;
+        position:absolute;
+        right:34px;
+        top:20px;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display:inline-block;
+        font-size:20px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;  
+        padding:34px 23px;
+        
+         }
+        .navbar li a:hover,.navbar li a.active{
+        text-decoration:underline; 
+        color: gray; 
+        }
+        .left img{
+        width:90px;
+        filter:invert(100%);
+        } 
+        .btn{
+            padding:4px 10px;
+            margin:0px 9px;
+            color:white;
+            background-color:black;
+            border: 2px solid grey;
+            cursor: pointer;
+            border-radius:10px;
+            font-size: 20px;
+            font-family: 'Baloo Bhai 2', cursive;
+    }
+        .btn:hover{
+            color:grey;
+        }
+        .container{
+            border: 2px solid white;
+            margin:106px 80px;
+            padding:75px;
+            width:33%;
+            border-radius:28px;
+        }
+        .form-group input{
+            text-align: center;
+            display: block;
+            padding:1px;
+            border:3px solid black;
+            margin: 11px auto;
+            width:508px;
+            border-radius:8px;
+           font-family: 'Baloo Bhai 2', cursive;
+           font-size:20px;
+            
+        }
+        .container button{
+            display:block;
+            margin: 20px auto;
+            width:99%;
+
+        }
+        
+</style>
+</head>
+<body>
+    <header>
+
+        <div  class="header">
+            <div  id=b1  class="left">
+                <div class="left">
+                    <img src="img/pngtree-gym-logo-png-image_1824195.jpg" alt="">
+                </div>        
+            </div>
+            
+            <div  id=b2 class="mid">
+                <ul class="navbar">
+                    <li> <a href="#" class="active">Home</a></li>
+                    <li> <a href="#">About us</a></li>
+                    <li><a href="#">fitness calulator</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div  id=b3  class="right">
+                <button class="btn">call us now</button>
+                <button class="btn">email us</button>
+            </div>
+        </div  >  
+    </header>
+    <div class = "container">
+        <h1>Join the best gym in Dhenkanal now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder=" enter your locality">
+            </div>
+            <button class="btn">submit</button>
+        </form>
+    </div>
+    </body>
+</html>
